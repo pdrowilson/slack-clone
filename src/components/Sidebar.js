@@ -33,6 +33,7 @@ function Sidebar() {
             <SidebarOption Icon={Inbox} title={'Mentions & Reactions'} />
             <SidebarOption Icon={Drafts} title={'Saved Items'} />
             <SidebarOption Icon={BookmarkBorder} title={'Chanel Browser'} />
+            <SidebarOption Icon={FileCopy} title={'Chanel Browser'} />
             <SidebarOption Icon={PeopleAlt} title={'People & User Groups'} />
             <SidebarOption Icon={Apps} title={'Apps'} />
             <SidebarOption Icon={ExpandLess} title={'Show Less'} />
