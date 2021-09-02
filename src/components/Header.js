@@ -38,7 +38,7 @@ const HeaderContainer = styled.div`
 `;
 
 const HeaderLeft = styled.div`
-    flex: 0.3;
+    flex: 0.2;
     display: flex;
     align-items: center;
     margin-left: 20px;
@@ -80,7 +80,7 @@ const HeaderSearch = styled.div`
 `;
 
 const HeaderRight = styled.div`
-    flex: 0.3;
+    flex: 0.4;
     display: flex;
     align-items: flex-end;
 
