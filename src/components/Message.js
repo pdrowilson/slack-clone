@@ -1,15 +1,15 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-function Message( {message, user, userImage, timeStamp} ) {
+function Message({ message, user, userImage, timeStamp }) {
   return (
     <MessageContainer>
-       <img src={userImage} alt={user} />
-       <MessageInfo>
-         <h4>
-           {user} <span>{new Date(timeStamp?.toDate()).toUTCString()}</span>
-         </h4>
-         <p>{message}</p>
-       </MessageInfo>
+      <img src={userImage} alt={user} />
+      <MessageInfo>
+        <h4>
+          {user} <span>{new Date(timeStamp?.toDate()).toUTCString()}</span>
+        </h4>
+        <p>{message}</p>
+      </MessageInfo>
     </MessageContainer>
   )
 }
@@ -26,7 +26,7 @@ const MessageContainer = styled.div`
     object-fit: contain;
     border-radius: 8px;
   }
-`;
+`
 
 const MessageInfo = styled.div`
   padding-left: 10px;
@@ -37,4 +37,4 @@ const MessageInfo = styled.div`
     margin-left: 4px;
     font-size: 10px;
   }
-`;
+`
